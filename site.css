@@ -1,0 +1,129 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+a.fa {
+  text-decoration: none;
+}
+
+.sm-button{ /* global button class */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  /*box-shadow: 0 2px 2px #999;*/
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 50px;
+  border-radius: 25px;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border: 1px solid;
+}
+
+.center {
+  text-align: center;
+}
+
+.row{
+  margin-bottom: 25px;
+}
+
+.header{
+  height:100px;
+  background-color: #222;
+  border-radius: 5px
+}
+.logo {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Buttons
+-------------------------------------------------- */
+
+
+.twitter{
+    background: #00ABE3;
+}
+
+.twitter:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitter:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+
+
+/* linkedin button class*/
+.linkedin{
+    background: #0094BC;
+}
+
+.linkedin:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedin:hover{
+      color: #0094BC;
+      background: #fff;
+}
+
+/* linkedin button class*/
+.github{
+    background: #333;
+}
+
+.github:before{
+      font-family: "FontAwesome";
+      content: "\f09b"; /* add github icon */
+}
+
+.github:hover{
+      background: #FFF;
+      color: #333;
+}
+
+
+.author-image {
+  background-image: url(blog/assets/images/author.jpg);
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+
+}
