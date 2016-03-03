@@ -32,74 +32,69 @@ a.fa {
   text-align: center;
 }
 
-.row{
+.row {
   margin-bottom: 25px;
 }
 
-.header{
+.header {
   height:100px;
   background-color: #222;
   border-radius: 5px
 }
 .logo {
-    display: block;
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 40px;
-    height: 40px;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 3px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
 /* Buttons
 -------------------------------------------------- */
-
-
-.twitter{
-    background: #00ABE3;
+.twitter {
+  background: #00ABE3;
 }
 
-.twitter:before{
-      font-family: "FontAwesome";
-      content: "\f099"; /* add twitter icon */
+.twitter:before {
+  font-family: "FontAwesome";
+  content: "\f099"; /* add twitter icon */
 }
 
-.twitter:hover{
-      color: #00ABE3;
-      background: #fff;
-}
-
-
-/* linkedin button class*/
-.linkedin{
-    background: #0094BC;
-}
-
-.linkedin:before{
-      font-family: "FontAwesome";
-      content: "\f0e1"; /* add linkedin icon */
-}
-
-.linkedin:hover{
-      color: #0094BC;
-      background: #fff;
+.twitter:hover {
+  color: #00ABE3;
+  background: #fff;
 }
 
 /* linkedin button class*/
-.github{
-    background: #333;
+.linkedin {
+  background: #0094BC;
 }
 
-.github:before{
-      font-family: "FontAwesome";
-      content: "\f09b"; /* add github icon */
+.linkedin:before {
+  font-family: "FontAwesome";
+  content: "\f0e1"; /* add linkedin icon */
 }
 
-.github:hover{
-      background: #FFF;
-      color: #333;
+.linkedin:hover {
+  color: #0094BC;
+  background: #fff;
+}
+
+/* linkedin button class*/
+.github {
+  background: #333;
+}
+
+.github:before {
+  font-family: "FontAwesome";
+  content: "\f09b"; /* add github icon */
+}
+
+.github:hover {
+  background: #FFF;
+  color: #333;
 }
 
 
