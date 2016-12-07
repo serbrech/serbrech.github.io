@@ -82,7 +82,7 @@ a.fa {
   background: #fff;
 }
 
-/* linkedin button class*/
+/* github button class*/
 .github {
   background: #333;
 }
@@ -97,6 +97,20 @@ a.fa {
   color: #333;
 }
 
+/* stackoverflow button class*/
+.so {
+  background: #333;
+}
+
+.so:before {
+  font-family: "FontAwesome";
+  content: "\f16c"; /* add so icon */
+}
+
+.so:hover {
+  background: #FFF;
+  color: #333;
+}
 
 .author-image {
   background-image: url(blog/assets/images/author.jpg);
