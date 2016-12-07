@@ -99,7 +99,7 @@ a.fa {
 
 /* stackoverflow button class*/
 .so {
-  background: #333;
+  background: #FF9900;
 }
 
 .so:before {
@@ -109,7 +109,7 @@ a.fa {
 
 .so:hover {
   background: #FFF;
-  color: #333;
+  color: #FF9900;
 }
 
 .author-image {
